@@ -7,7 +7,48 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation Section -->
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#home">Home</a></li>
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <header>
+        <h1 role="heading" aria-level="1">Meghana's Portfolio</h1>
+    </header>
+
+    <!-- Image Section -->
+    <section>
+        <img src="profile.jpg" alt="A professional headshot of Meghana" role="img" width="200" height="200">
+        <p>Welcome to my portfolio! I am Meghana, a web developer skilled in creating accessible and responsive websites.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 role="heading" aria-level="2">Projects</h2>
+        <ul role="list">
+            <li role="listitem">Food Delivery App - A user-friendly food delivery application.</li>
+            <li role="listitem">Weather App - A real-time weather forecast application.</li>
+            <li role="listitem">FlexBox Guide - A complete guide on FlexBox layout in CSS.</li>
+        </ul>
+    </section>
+
+    <script type="text/javascript" src="./script.js"></script><!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
 
